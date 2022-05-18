@@ -1,0 +1,86 @@
+body {
+    margin:0 auto;
+    padding:20px;
+    max-width:1200px;
+    height:100vh;
+    box-sizing: border-box;
+    background:#DFE0F8;
+}
+h1 {
+    text-align: center;
+    color:#9D61D8;
+}
+
+input[type="number"] {
+    border:1px solid #9D61D8;
+    border-radius: 5px;
+    font-size:16px;
+    padding:5px;
+    background:#eee;
+    width:100px;
+}
+input[type="number"]::placeholder {
+    color:#ddd;
+}
+input[type="number"]:focus {
+    background:#fff;
+    outline:1px solid #555AD5;
+}
+
+#game-form {
+    text-align: center;
+}
+
+.number-select-box {
+    margin:50px 0 20px;
+}
+
+.game-box #btn {
+    cursor: pointer;
+    border:1px solid #9D61D8;
+    background:#9D61D8;
+    color:#fff;
+    padding:6px 10px;
+    border-radius: 5px;
+}
+
+
+.result-box {
+    padding:20px;
+    margin:50px 0 0;
+    background:#9D61D8;
+    color:#fff;
+    font-size:20px;
+    line-height: initial;
+}
+.result-box .user_chose {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 14px;
+    display: block;
+}
+.result-box #result {
+    padding-top:10px;
+    display: block;
+}
+
+.color {
+    font-weight: bold;
+    color:#FFF072;
+    font-size:22px;
+}
+.color2 {
+    font-weight: bold;;
+    color:#72FF80;
+    font-size:22px;
+}
+
+.hidden {
+    display: none;
+}
+
+.point {
+    font-size:30px;
+    color:#72FF80;
+    font-weight: bold;
+    letter-spacing: 2px;
+}

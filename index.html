@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="casino.css">
+
+    <title>Random Number Game</title>
+</head>
+<body>
+
+    <h1>Random Number Game</h1>
+
+    <form id="game-form">
+        <div class="number-select-box">
+            <span>Generate a number between 0 and</span>
+            <input type="number" placeholder="Please write max number" min="0">
+        </div>
+
+        <div class="game-box">
+            <span>Guess the number</span>
+            <input type="number" class="guess-num" placeholder="Please write guess number" min="0">
+            <input type="button" id="btn" value="Play">
+        </div>
+
+        <div class="result-box">
+            <span class="user_chose">Hello!</span>
+            <span id="result">Game Result</span>
+        </div>
+    </form>
+    
+    <script src="casino.js"></script>
+
+</body>
+</html>
